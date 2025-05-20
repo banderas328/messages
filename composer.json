@@ -1,0 +1,21 @@
+{
+    "name": "vendor/messaging_service",
+    "description": "Standalone PHP 8.2 Microservice for Messages, Channels, and Video Calls",
+    "type": "project",
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

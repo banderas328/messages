@@ -1,0 +1,5 @@
+# .htaccess (размещение в корне admin панели)
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /full/path/to/.htpasswd
+Require valid-user
